@@ -1,3 +1,4 @@
+/*
 const fs = require('fs').promises
 const path = require('path')
 const express = require('express')
@@ -19,6 +20,7 @@ app.listen(port, () => console.log(`Server listening on port ${port}`))
  * @param {object} req
  * @param {object} res
 */
+/*
 function handleRoot(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 }
@@ -28,6 +30,7 @@ function handleRoot(req, res) {
  * @param {object} req
  * @param {object} res
  */
+/*
 async function listProducts(req, res) {
   const productsFile = path.join(__dirname, 'data/full-products.json')
   try {
@@ -37,7 +40,7 @@ async function listProducts(req, res) {
     res.status(500).json({ error: err.message })
   }
 }
-
+*/
 
 
 const express = require('express')
