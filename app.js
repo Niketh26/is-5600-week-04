@@ -65,4 +65,4 @@ app.get('/products/:id', api.getProduct)
 app.use(middleware.handleError)
 app.use(middleware.notFound)
 // Boot the server
-app.listen(port, () => console.log(Server listening on port ${port}))
+app.listen(port, () => console.log('Server listening on port ${port}'))
